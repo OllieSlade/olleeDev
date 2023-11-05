@@ -102,10 +102,17 @@ body {
     height: 100%;
 }
 
+.projects__project-button-group {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    
+}
+
 .projects__project-button {
     /* background-color: var(--secondary-background-c); */
     padding: 0.4em 0;
-    width: 40%;
+    width: 7em;
     justify-content: flex-end;
     text-align: center;
     text-decoration: none;
